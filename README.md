@@ -20,7 +20,7 @@ The repository is organized into different directories based on the topics cover
 **In Construction...** 
 Here are some examples of projects you'll find in this repository:
 
-1. **Credit Score Checker (GUI)**: A simple introductory project where I use dialog and message boxes to interact a user and evaluate their credit score.
+1. **Credit Score Checker (GUI)**: A simple introductory project where I use dialog and message boxes to interact with a user and evaluate their credit score.
 
 ## Contributions
 
