@@ -1,0 +1,20 @@
+import java.util.Scanner;  
+
+public class fun_doc {
+    public static void main(String[] args) {
+        int number= 0; // Initialize the number variable to 0
+        Scanner sc = new Scanner(System.in); // Create a Scanner object to read input
+
+        // Repeat until the user enters the secret number 42
+        while(number != 42){
+            System.out.println("Enter the secret favorite number: "); // Prompt the user to enter a number
+            number = sc.nextInt(); // Read the input number from the user  
+        }
+        
+        // If the loop exits, it means the user entered the secret number 42
+        System.out.println("Yayy you found the right number!");
+
+        // Close the Scanner object to release system resources
+        sc.close();
+    }
+}
